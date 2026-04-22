@@ -37,6 +37,7 @@ System.out.println("------------------------------------");
         System.out.println("Username successfully captured");
     } else {
         System.out.println("Username is not correctly formatted, please ensure that your username contains an underscore and is no more than 5 characters in length.");
+    System.out.println("\nSession ended. Thank you for using Sinakho App!");
     }     
     }
 }
