@@ -23,10 +23,10 @@ System.out.println("   WELCOME TO THE SINAKHO APP V1.0  ");
 System.out.println("------------------------------------");
     
     // 3. Collect Data
-    System.out.print("Please enter your First Name: ");
+    System.out.print("Please enter your First Name:  ");
     String fName = input.nextLine().trim();
     
-    System.out.print("Please enter your Last Name: ");
+    System.out.print("Please enter your Last Name:  ");
     String lName = input.nextLine().trim();
 
     System.out.println("Enter a username (Must have '_' and be max 5 chars): ");
