@@ -18,7 +18,9 @@ public class SinakhoJavaApp {
     Login loginSystem = new Login();
 
     // 2. The Greeting
-    System.out.println("Welcome to Sinakho App!");
+    System.out.println("------------------------------------");
+System.out.println("   WELCOME TO THE SINAKHO APP V1.0  ");
+System.out.println("------------------------------------");
     
     // 3. Collect Data
     System.out.print("Please enter your First Name: ");
