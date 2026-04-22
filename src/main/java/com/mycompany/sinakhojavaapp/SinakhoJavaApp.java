@@ -24,13 +24,13 @@ System.out.println("------------------------------------");
     
     // 3. Collect Data
     System.out.print("Please enter your First Name: ");
-    String fName = input.nextLine();
+    String fName = input.nextLine().trim();
     
     System.out.print("Please enter your Last Name: ");
-    String lName = input.nextLine();
+    String lName = input.nextLine().trim();
 
     System.out.println("Enter a username (Must have '_' and be max 5 chars): ");
-    String user = input.nextLine();
+    String user = input.nextLine().trim();
 
     // 4. Use your Login rules!
     if (loginSystem.checkUserName(user)) {
